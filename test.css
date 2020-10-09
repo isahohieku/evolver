@@ -320,6 +320,11 @@ html, body {
     border-radius: 5px;
 }
 
+.mailing-wrapper {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
 .mailing-list {
     height: 320px;
     background: #F2F2F2;
