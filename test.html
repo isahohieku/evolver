@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test-Isah Ohieku</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./test.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+</head>
+
+<body>
+    <div class="overflow-hidden">
+        <!-- Address Header -->
+        <div class="address-header d-md-block d-none">
+            <div class="container">
+                <div class="row">
+                    <div class="col d-flex align-items-center py-2">
+                        <i class="fas fa-phone fa-rotate-90 text-white"></i>
+                        <a class="text-white mx-3" href="tel:+234 802 501 8557">+234 802 501 8557</a>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <address class="text-white mb-0 ml-3">35 Freedom Way, Lekki Phase 1, Lagos, Nigeria</address>
+                        <i class="far fa-envelope ml-3"></i>
+                        <a class="text-white ml-3" href="mailto:sales@thelightinghaus.com">sales@thelightinghaus.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Menu Row -->
+        <div class="container d-none d-md-block">
+            <div class="row">
+                <div class="col d-flex align-items-center justify-content-between py-2">
+                    <a href="#">
+                        <img src="/img/favicon.svg" alt="Favicon" width="128">
+                    </a>
+
+                    <!-- Search -->
+                    <div class="search-wrapper d-flex align-items-center py-1 px-2 w-40">
+                        <img src="/img/search.svg" alt="Search Icon" width="20">
+                        <input type="search" class="form-control border-0 flex-grow-1"
+                            placeholder="Search for a product, category or space." name="search" id="search">
+                    </div>
+
+                    <!-- Menu items -->
+                    <div class="menu-items">
+                        <a href="#" class="btn text-uppercase">
+                            <img src="img/user.svg" class="d-block mx-auto" alt="User" height="16">
+                            <span class="d-inline-block text-center">My account</span>
+                        </a>
+                        <a href="#" class="btn text-uppercase">
+                            <img src="img/badge.svg" class="d-block mx-auto" alt="User" height="16">
+                            <span class="d-inline-block text-center">List</span>
+                        </a>
+                        <a href="#" class="btn text-uppercase">
+                            <img src="img/cart.svg" class="d-block mx-auto" alt="User" height="16">
+                            <span class="d-inline-block text-center">Cart</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Menu row Mobile -->
+        <nav class="d-flex justify-content-between align-items-center position-relative py-2 d-md-none">
+            <button class="btn hambuger-btn ml-2">
+                <span class="hamburger-menu"></span>
+            </button>
+
+            <a href="#">
+                <img src="/img/favicon.svg" alt="Favicon" height="35">
+            </a>
+
+            <a href="#" class="btn text-uppercase">
+                <img src="img/cart.svg" class="d-block mx-auto" alt="Cart" height="16">
+            </a>
+        </nav>
+
+        <!-- Search Mobile -->
+        <div class="px-2 mt-1 d-md-none">
+            <div class="search-wrapper d-flex align-items-center py-1 px-2 w-100">
+                <img src="/img/search.svg" alt="Search Icon" width="20">
+                <input type="search" class="form-control border-0"
+                    placeholder="Search for a product, category or space." name="search" id="search2">
+            </div>
+        </div>
+
+        <!-- Rule -->
+        <div class="rule d-none d-md-block"></div>
+
+        <!-- Sections Links -->
+        <div class="container d-none d-md-block">
+            <div class="row">
+                <div class="col d-flex justify-content-between" id="section-menus"></div>
+            </div>
+        </div>
+
+        <!-- Jumbo card mobile -->
+        <div class="jumbo-card">
+            <h4>Explore our Showroom</h4>
+            <h5>
+                Not sure of what you’re looking for?
+                No worries, use <span>Lighting Xplorer</span> to see what you can get.
+            </h5>
+
+            <a class="btn" href="#">Proceed to Lighting Xplorer <img src="img/arrow-right.svg" alt="Arrow right"></a>
+        </div>
+
+        <!-- Rule Mobile -->
+        <div class="rule3 d-md-none"></div>
+
+        <!-- Carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide d-none d-md-block" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <!-- Card -->
+                    <div class="jumbo-card">
+                        <h4>Explore our Showroom</h4>
+                        <h5>
+                            Not sure of what you’re looking for?
+                            No worries, use <span>Lighting Xplorer</span> to see what you can get.
+                        </h5>
+
+                        <a class="btn" href="#">Proceed to Lighting Xplorer <img src="img/arrow-right.svg"
+                                alt="Arrow right"></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!-- Card -->
+                    <div class="jumbo-card">
+                        <h4>Explore our Showroom</h4>
+                        <h5>
+                            Not sure of what you’re looking for?
+                            No worries, use <span>Lighting Xplorer</span> to see what you can get.
+                        </h5>
+
+                        <a class="btn" href="#">Proceed to Lighting Xplorer <img src="img/arrow-right.svg"
+                                alt="Arrow right"></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!-- Card -->
+                    <div class="jumbo-card">
+                        <h4>Explore our Showroom</h4>
+                        <h5>
+                            Not sure of what you’re looking for?
+                            No worries, use <span>Lighting Xplorer</span> to see what you can get.
+                        </h5>
+
+                        <a class="btn" href="#">Proceed to Lighting Xplorer <img src="img/arrow-right.svg"
+                                alt="Arrow right"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Shop by space -->
+        <div class="container mt-5 d-none d-md-block" id="shop-by-space">
+            <div class="row">
+                <div class="col px-0">
+                    <h4>Shop By Space <a href="#" class="ml-2">View All</a></h4>
+                    <h5 class="sub">Select the type of apartment you want to light up.</h5>
+                </div>
+            </div>
+
+            <!-- Cards -->
+            <div class="row mt-4">
+                <div class="col px-0 d-flex justify-content-between">
+                    <div class="product-card img1">
+                        <div class="title">
+                            <p class="text-uppercase">Home</p>
+                        </div>
+                    </div>
+
+                    <div class="product-card img2">
+                        <div class="title">
+                            <p class="text-uppercase">Office</p>
+                        </div>
+                    </div>
+
+                    <div class="product-card img3">
+                        <div class="title">
+                            <p class="text-uppercase">Hotel</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Popular categories -->
+            <div class="row mt-5">
+                <div class="col px-0">
+                    <h4>Popular Categories <a href="#" class="ml-2">View All</a></h4>
+                </div>
+            </div>
+
+            <div class="row mt-2">
+                <div class="col px-0">
+                    <div>
+                        <div class="prod-categories">
+                            <div class="product2 pr-1">
+                                <div class="product-card img7">
+                                    <div class="title">
+                                        <p class="text-uppercase">CEILING LAMPS</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product2 pr-1">
+                                <div class="product-card img8">
+                                    <div class="title">
+                                        <p class="text-uppercase">CHANDELIERS</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product2 pr-1">
+                                <div class="product-card img7">
+                                    <div class="title">
+                                        <p class="text-uppercase">CEILING LAMPS</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product2 pr-1">
+                                <div class="product-card img8">
+                                    <div class="title">
+                                        <p class="text-uppercase">CHANDELIERS</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-1 mb-3">
+                <div class="col d-flex justify-content-end">
+                    <a href="#" id="leftButton" class="btn left-icon"><img src="img/arrow-right2.svg"
+                            alt="Left icon"></a>
+                    <a href="#" id="rightButton" class="btn ml-2"><img src="img/arrow-right2.svg" alt="Right icon"></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Select your space Mobile -->
+        <div class="container mt-5 d-md-none select-your-space">
+            <div class="row">
+                <div class="col">
+                    <div class="d-flex align-items-center">
+                        <h4 class="text-capitalize mb-0">Select your Space</h4>
+                        <a href="#" class="ml-auto view-all">View All</a>
+                    </div>
+                    <h5 class="sub mt-2">Select the type of apartment you want to light up.</h5>
+                </div>
+            </div>
+
+            <!-- Cards -->
+            <div class="row mt-4">
+                <div class="col d-flex justify-content-between">
+                    <div class="flex-grow-1">
+                        <div class="product-card img1 w-100"></div>
+                        <a href="#" class="btn">Home</a>
+                    </div>
+
+                    <div class="flex-grow-1 mx-2">
+                        <div class="product-card img2 w-100"></div>
+                        <a href="#" class="btn">Office</a>
+                    </div>
+
+                    <div class="flex-grow-1">
+                        <div class="product-card img3 w-100"></div>
+                        <a href="#" class="btn">Hotel</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Featured Products Mobile -->
+        <div class="container mt-5 d-md-none select-your-space">
+            <div class="row">
+                <div class="col">
+                    <div class="d-flex align-items-center">
+                        <h4 class="text-capitalize mb-0">Featured Products</h4>
+                        <a href="#" class="ml-auto view-all">View All</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col">
+                    <div class="feature-carousel">
+                        <div class="pr-2">
+                            <div class="product-card img4 w-100"></div>
+                            <p class="product-name mt-3 mb-1">Standing Lamp</p>
+                            <p class="product-price">N45,000</p>
+                        </div>
+                        <div class="pr-2">
+                            <div class="product-card img5 w-100">
+                                <div class="discount">
+                                    <p class="mb-0 text-uppercase">10&#37; off</p>
+                                </div>
+                            </div>
+                            <p class="product-name mt-3 mb-1">Wooden Chandelier</p>
+                            <p class="product-price">N45,000</p>
+                        </div>
+                        <div class="pr-2">
+                            <div class="product-card img6 w-100"></div>
+                            <p class="product-name mt-3 mb-1">Pendant Lamp</p>
+                            <p class="product-price">N15,000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Featured Categories Mobile -->
+        <div class="container mt-5 d-md-none select-your-space">
+            <div class="row">
+                <div class="col">
+                    <h4 class="text-capitalize mb-0">Featured Categories</h4>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col">
+                    <div class="feature-category-carousel">
+                        <div class="pr-2">
+                            <div class="product-card img4 w-100">
+                                <p class="category-title mt-3 mb-1">Chandelier</p>
+                            </div>
+                        </div>
+                        <div class="pr-2">
+                            <div class="product-card img5 w-100">
+                                <p class="category-title mt-3 mb-1">Wooden Chandelie</p>
+                            </div>
+                        </div>
+                        <div class="pr-2">
+                            <div class="product-card img6 w-100">
+                                <p class="product-name mt-3 mb-1">Pendant Lamp</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Popular Categories Mobile -->
+        <div class="container mt-5 d-md-none select-your-space popular-cat">
+
+            <h4 class="text-capitalize mb-0">Popular Categories</h4>
+
+            <!-- Cards -->
+            <div class="row mt-4">
+                <div class="col d-flex justify-content-between">
+                    <div class="flex-grow-1">
+                        <div class="product-card img1 w-100"></div>
+                        <a href="#" class="btn">Living Room</a>
+                    </div>
+
+                    <div class="flex-grow-1 mx-2">
+                        <div class="product-card img2 w-100"></div>
+                        <a href="#" class="btn">Dining Table</a>
+                    </div>
+
+                    <div class="flex-grow-1">
+                        <div class="product-card img3 w-100"></div>
+                        <a href="#" class="btn">Resturant</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col d-flex justify-content-between">
+                    <div class="flex-grow-1">
+                        <div class="product-card img1 w-100"></div>
+                        <a href="#" class="btn">Home Cinema</a>
+                    </div>
+
+                    <div class="flex-grow-1 mx-2">
+                        <div class="product-card img2 w-100"></div>
+                        <a href="#" class="btn">Kitchen</a>
+                    </div>
+
+                    <div class="flex-grow-1">
+                        <div class="product-card img3 w-100"></div>
+                        <a href="#" class="btn">Box Room</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col">
+                    <a href="#" class="btn view-all w-100">View All Products</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product on Sale -->
+        <div class="container mt-5 d-none d-md-block">
+            <div class="row">
+                <div class="col px-0">
+                    <div class="popular-product py-4">
+                        <h4 class="ml-4">Product on Sale</h4>
+                        <!-- Rule -->
+                        <div class="rule2 mt-3"></div>
+                        <div class="container px-4">
+                            <div class="row mt-3">
+                                <div class="col">
+                                    <div class="product-card img4 w-100"></div>
+                                    <p class="product-name mt-3 mb-1">Standing Lamp</p>
+                                    <p class="product-price">N45,000</p>
+                                </div>
+                                <div class="col">
+                                    <div class="product-card img5 w-100">
+                                        <div class="discount">
+                                            <p class="mb-0 text-uppercase">10&#37; off</p>
+                                        </div>
+                                    </div>
+                                    <p class="product-name mt-3 mb-1">Wooden Chandelier</p>
+                                    <p class="product-price">N45,000</p>
+                                </div>
+                                <div class="col">
+                                    <div class="product-card img6 w-100"></div>
+                                    <p class="product-name mt-3 mb-1">Pendant Lamp</p>
+                                    <p class="product-price">N15,000</p>
+                                </div>
+                                <div class="col">
+                                    <div class="product-card img4 w-100"></div>
+                                    <p class="product-name mt-3 mb-1">Standing Lamp</p>
+                                    <p class="product-price">N425,000</p>
+                                </div>
+                            </div>
+
+                            <div class="row mt-4">
+                                <div class="col">
+                                    <div class="product-card img4 w-100"></div>
+                                    <p class="product-name mt-3 mb-1">Standing Lamp</p>
+                                    <p class="product-price">N45,000</p>
+                                </div>
+                                <div class="col">
+                                    <div class="product-card img5 w-100"></div>
+                                    <p class="product-name mt-3 mb-1">Wooden Chandelier</p>
+                                    <p class="product-price">N45,000</p>
+                                </div>
+                                <div class="col">
+                                    <div class="product-card img6 w-100"></div>
+                                    <p class="product-name mt-3 mb-1">Pendant Lamp</p>
+                                    <p class="product-price">N15,000</p>
+                                </div>
+                                <div class="col">
+                                    <div class="product-card img4 w-100">
+                                        <div class="discount">
+                                            <p class="mb-0 text-uppercase">10&#37; off</p>
+                                        </div>
+                                    </div>
+                                    <p class="product-name mt-3 mb-1">Standing Lamp</p>
+                                    <p class="product-price">N425,000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mailing list -->
+        <div class="container mt-5 d-none d-md-block">
+            <div class="row">
+                <div class="col px-0">
+                    <div class="mailing-list">
+                        <div class="top-row">
+                            <img src="img/mail-icon.svg" alt="Envelope" width="42">
+
+                            <h3 class="d-inline-block ml-3">Join our mailing list</h3>
+                        </div>
+                        <h5 class="w-50 mt-4">Subscribe to our newsletter to get updates on our latest offers!</h5>
+
+                        <div class="email-control mt-4">
+                            <input class="form-control w-60" placeholder="Enter email address here" type="email"
+                                name="email" id="email">
+                        </div>
+
+                        <button class="btn subscribe mt-4">Subscribe</button>
+                    </div>
+                </div>
+                <div class="col px-0">
+                    <div class="w-100 h-100 mailing-img"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="mt-5 py-5 d-none d-md-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col pr-5 pl-0">
+                        <img src="img/favicon2.svg" alt="Favicon white">
+
+                        <p class="text-white mt-3 pr-2 mb-0">
+                            //Talk about the company here//
+                            Brighten your nights with modern designer lighting from Thelightinghaus.com Our range
+                            features
+                            top brands and all the latest contemporary lighting styles to illuminate your home and
+                            garden.
+                        </p>
+                    </div>
+
+                    <div class="col-2 links">
+                        <h4 class="text-white">Quick Links</h4>
+
+                        <a class="text-white text-uppercase mt-4" href="#">LIGHTING Explorer</a>
+                        <a class="text-white text-uppercase" href="#">Office</a>
+                        <a class="text-white text-uppercase" href="#">Hotel</a>
+                        <a class="text-white text-uppercase" href="#">Home</a>
+                        <a class="text-white text-uppercase" href="#">My account</a>
+                        <a class="text-white text-uppercase" href="#">Cart</a>
+                    </div>
+
+                    <div class="col-4">
+                        <h4 class="text-white">Connect</h4>
+
+                        <p class="text-white mt-4 font-weight-light ">Connect with us on social media</p>
+
+                        <!-- Socials -->
+                        <div>
+                            <a href="#" class="btn p-0 mr-2"><img src="img/send.svg" alt="Send" height="14"></a>
+                            <a href="#" class="btn p-0 mr-2"><img src="img/whatsapp.svg" alt="Whatsapp" height="14"></a>
+                            <a href="#" class="btn p-0 mr-2"><img src="img/linkedin.svg" alt="LinkedIn" height="14"></a>
+                            <a href="#" class="btn p-0 mr-2"><img src="img/youtube.svg" alt="Youtube" height="14"></a>
+                            <a href="#" class="btn p-0 mr-2"><img src="img/twitter.svg" alt="Twitter" height="14"></a>
+                            <a href="#" class="btn p-0 mr-2"><img src="img/facebook.svg" alt="Facebook" height="14"></a>
+                            <a href="#" class="btn p-0 mr-2"><img src="img/instagram.svg" alt="Instagram"
+                                    height="14"></a>
+                        </div>
+                    </div>
+
+                    <div class="col pr-0">
+                        <div class="d-flex align-items-center">
+                            <img src="img/favicon3.svg" class="d-inline-block" alt="Favicon" width="32">
+                            <div class="ml-3">
+                                <h4 class="text-white mb-0">Download our mobile app</h4>
+                                <h4 class="text-white font-weight-light mb-0">Get access to exclusive offers</h4>
+                            </div>
+                        </div>
+
+                        <!-- App Icons -->
+                        <div class="mt-3">
+                            <a href="#" class="btn p-0"><img src="img/iOS.svg" alt="iOS icon" width="80"></a>
+                            <a href="#" class="btn p-0"><img src="img/playstore.svg" class="ml-2" alt="Playstore icon"
+                                    width="80"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Address Header -->
+        <div class="address-header d-none d-md-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col d-flex align-items-center py-2">
+                        <i class="fas fa-phone fa-rotate-90 text-white"></i>
+                        <a class="text-white mx-3" href="tel:+234 802 501 8557">+234 802 501 8557</a>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <address class="text-white mb-0 ml-3">35 Freedom Way, Lekki Phase 1, Lagos, Nigeria</address>
+                        <i class="far fa-envelope ml-3"></i>
+                        <a class="text-white ml-3" href="mailto:sales@thelightinghaus.com">sales@thelightinghaus.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="/test.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+</body>
+
+</html>
